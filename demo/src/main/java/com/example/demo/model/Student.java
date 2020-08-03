@@ -1,4 +1,4 @@
-package com;
+package com.example.demo.model;
 
 public class Student {
 
@@ -7,16 +7,6 @@ public class Student {
         private String lname;
 
 
-public Student() {
-    
-}
-
-public Student(fname,lname) {
-
-    this.fname=fname;
-    this.lname=lname;
-    
-}
 
 
 
