@@ -1,6 +1,8 @@
-package io.github.jiangdequan;
+package com.example.demo.repo;
 
-public interface StudentRepo extends JPARepository
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.demo.model.*;
+public interface StudentRepo extends JpaRepository<Student,Integer>
 {
     
 }

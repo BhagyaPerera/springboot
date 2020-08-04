@@ -8,9 +8,15 @@ public class Student {
 
 
 
+    public Student(){
 
+    }
 
-    
+    public Student(String fname, String lname){
+
+        this.fName=fname;
+        this.lname=lname;
+    }
 
     /**
      * @return int return the id
